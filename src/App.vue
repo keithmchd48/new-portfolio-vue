@@ -18,14 +18,12 @@
 <script>
     import Home from './components/Home.vue'
     import Experience from './components/Experience.vue'
-    import Job from './components/Job.vue'
     import AboutMe from './components/AboutMe.vue'
     export default {
       name: 'app',
       components: {
         Home,
         Experience,
-        Job,
         AboutMe
       }
     }
