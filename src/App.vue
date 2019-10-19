@@ -9,9 +9,7 @@
       <div id="page3">
           <Experience></Experience>
       </div>
-      <div id="page4">
 
-      </div>
   </div>
 </template>
 
@@ -70,7 +68,8 @@
         background: linear-gradient(to right, rgb(219, 54, 164), rgb(247, 255, 0));
     }
     #page2 {
-        height: 100vh;
+        min-height: 100vh;
+        height: auto;
         padding: 7em 0 7em 0;
     }
     #page3 {
@@ -78,9 +77,6 @@
         height: 100vh;
         padding: 7em 0 7em 0;
         background: #152e4e;
-    }
-    #page4 {
-        height: 100vh;
     }
     .small-title {
         font-family: BenchNine, sans-serif;
